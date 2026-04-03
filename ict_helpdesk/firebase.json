@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "ict-helpdesk-5dd9d",
+          "appId": "1:678110347945:android:ca1285e071b30d3e121fb8",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "ict-helpdesk-5dd9d",
+          "configurations": {
+            "android": "1:678110347945:android:ca1285e071b30d3e121fb8",
+            "ios": "1:678110347945:ios:004af2e84e2ebbfa121fb8",
+            "macos": "1:678110347945:ios:004af2e84e2ebbfa121fb8",
+            "web": "1:678110347945:web:8c5a3b9ff8e3faec121fb8",
+            "windows": "1:678110347945:web:119478e823236887121fb8"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

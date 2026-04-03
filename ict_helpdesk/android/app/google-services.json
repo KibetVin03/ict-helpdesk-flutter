@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "678110347945",
+    "project_id": "ict-helpdesk-5dd9d",
+    "storage_bucket": "ict-helpdesk-5dd9d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678110347945:android:ca1285e071b30d3e121fb8",
+        "android_client_info": {
+          "package_name": "com.example.ict_helpdesk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADUKQn6GN8j_a8eCednEzY0Td1LoSiEvY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
